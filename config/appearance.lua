@@ -20,6 +20,10 @@ return {
 
   -- color scheme
   colors = colors,
+  -- 设置背景透明
+  --transparent_background = true,
+  window_background_opacity = 0,
+  win32_system_backdrop = 'Acrylic',
 
   -- background
   background = backdrops:initial_options(false), -- set to true if you want wezterm to start on focus mode
